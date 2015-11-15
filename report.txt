@@ -19,9 +19,7 @@ Inside the loop I detected the time delta of 5 seconds and calculated the averag
 stored all data inside arrays and cleaned them every 5 seconds split. This gave me more performance and very low 
 memory load.
 
-For the 99th percentile I went the easy way and used the NumPy (www.numpy.org). The tricky part was setting it up it 
-in OSX. When I tested the code on my Linux boot it was as simple as 'pacman -S python-numpy' to get the module working 
-from the arch linux repos. I did a short research and numpy seems to be the most complete and reliable choice.   
+For the 99th percentile (I had to remember what a percentile is and how to calculate it) I went the easy way and used the NumPy (www.numpy.org). The tricky part was setting it up it in OSX. When I tested the code on my Linux boot it was as simple as 'pacman -S python-numpy' to get the module working from the arch linux repos. I did a short research and numpy seems to be the most complete and reliable choice.   
 
 To be honest it took me a little bit more than one hour as I had some trouble getting the numpy running on OSX. Te 
 script logic was coded somehow very quickly and easy and is available in the fin.py file. I also added a output.txt that contains an example of a output I'm getting here.
