@@ -24,4 +24,4 @@ in OSX. When I tested the code on my Linux boot it was as simple as 'pacman -S p
 from the arch linux repos. I did a short research and numpy seems to be the most complete and reliable choice.   
 
 To be honest it took me a little bit more than one hour as I had some trouble getting the numpy running on OSX. Te 
-script logic was coded somehow very quickly and easy and is available in the fin.py file.
+script logic was coded somehow very quickly and easy and is available in the fin.py file. I also added a output.txt that contains an example of a output I'm getting here.
